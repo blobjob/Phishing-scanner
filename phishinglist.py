@@ -1,0 +1,1 @@
+common_phrases_list = ["Dear user", "unusual activity", "avoid suspension", "urgent", "immidiately"] #list of common phrases used in phishing emails
