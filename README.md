@@ -2,11 +2,12 @@ Phishing email scanner
 Scans any email a user finds suspicious to check whether it's a phishing email.
 
 Description
-This program will scan any email that a user has been sent and will detect whether the email is likely to be a phishing attack using AI. This program also aims to train users to spot phishing emails themselves to further protect the from being attacked. 
+This program will scan any email the user labels as Phishing scanner and will detect whether the email is likely to be a phishing attack using AI. This program also aims to train users to spot phishing emails themselves to further protect the from being attacked. 
 
 Getting Started
 Dependencies
 Colourama and imap-tools.
+Email folder/label called "Phishing scanner".
 Installing
 You can download this program from GitHub at: 
 

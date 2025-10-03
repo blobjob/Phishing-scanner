@@ -5,9 +5,10 @@ from phishinglist import common_phrases_list
 MAIL_PASSWORD = "yoie rzie kbyh jyqf" #APP PASSWORD NOT ACCOUNT PASSWORD
 MAIL_USERNAME = "phishingtesteremail@gmail.com"#EMAIL ADDRESS
 
-with MailBox("imap.gmail.com").login(MAIL_USERNAME, MAIL_PASSWORD, "Inbox") as mb: #conecting to the gmail account using imap-tools
+with MailBox("imap.gmail.com").login(MAIL_USERNAME, MAIL_PASSWORD, "Phishing scanner") as mb: #conecting to the gmail account using imap-tools
     #print(mb.folder.get()) checks which folder you're currently in
-    for msg in mb.fetch(limit=2, reverse=True, mark_seen=True): #for each email, gets the subject, date, flags and text.
+    #print(mb.folder.list())
+    for msg in mb.fetch(limit=1, reverse=True, mark_seen=True): #for each email, gets the subject, date, flags and text.
         print(msg.subject, msg.date, msg.flags, msg.text)
         
         msg_lower = (msg.text or "").lower()#get the message in lowercase
