@@ -22,3 +22,4 @@ This project is licensed under the Team Pingu License - see the LICENSE.md file 
 Acknowledgments
 Inspiration, code snippets, etc.
 @pretty printed: https://www.youtube.com/watch?v=KlnL4JFNXbQ&t=306s
+@mitchellkrogza: Phishing domain list https://github.com/Phishing-Database/Phishing.Database/blob/master/README.md
